@@ -1,4 +1,4 @@
-const API_BASE_URL = 'http://localhost:5000/api';
+const API_BASE_URL = 'https://campus-backend-93ge.onrender.com/api';
 
 const buildHeaders = (token?: string, isJson = true) => {
   const headers = new Headers();
